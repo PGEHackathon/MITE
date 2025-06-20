@@ -1,0 +1,7 @@
+sources:
+  production:
+    args:
+      path: '{{ CATALOG_DIR }}/nd_production.yml'
+    description: 'Catalog of data sources related to oil and gas production'
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}

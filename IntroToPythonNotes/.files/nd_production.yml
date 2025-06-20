@@ -1,0 +1,10 @@
+sources: 
+  production_by_api:
+    args:
+      csv_kwargs:
+        parse_dates:
+        - date
+      urlpath: '{{ CATALOG_DIR }}/production_{{api}}.csv'
+    description: 'Returns production history given an API'
+    driver: intake.source.csv.CSVSource
+    metadata: {}
