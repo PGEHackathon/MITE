@@ -54,6 +54,8 @@ Specifications of the reservoir unit of interest:
 
 <img src="https://github.com/PGEHackathon/mite/blob/main/problem/res21_planview.png" width="600" height="400">
 
+**Figure 2:** Planview of Reservoir 21.
+
 * **Wells**: 83 vertical wells were drilled across the reservoir and completed throughout the payzones. Due to the field management cosntraints, only 73 wells were open to produce oil for the first three years, while the remaining 10 wells were kept shut-in. At the end of the third year, the remaining 10 unproduced wells are planned to be openned.
 
 * **Question**: What will be the the cumulative oil production for each of these 10 unproduced (preproduction) wells over the next 3 years?  
