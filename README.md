@@ -153,7 +153,7 @@ The Workflow and Presentation submission templates are in the [resources reposit
 
 4. Use code from others, but cite all code used from other sources in your workflows and presentations, e.g.,
 
-* Pyrcz, M.J. (2020) GeostatsPy 0.0.19 [Source code]. https://github.com/GeostatsGuy/GeostatsPy
+* Pyrcz, M.J. (2020) GeostatsPy 0.0.19 [source code]. https://github.com/GeostatsGuy/GeostatsPy
 
 * Foster, J.T., (2015) 1DPDpy 1.0 [source code]. http://dx.doi.org/10.5281/zenodo.15795 
 
