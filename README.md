@@ -81,6 +81,18 @@ Comments:
 
 Predictor features:
 
+| Feature           | Units                  | Description                                                                 |
+|-------------------|------------------------|-----------------------------------------------------------------------------|
+| Porosity          | %                      | Measure of the void spaces in a material, expressed as a percentage.        |
+| Permeability      | mDarcy                 | Ability of a material to allow fluids to pass through its pore spaces.      |
+| Acoustic Impedance| $kg/m²·s x 10^6$       | Product of a material's density and sound velocity, affecting wave behavior.|
+| Rock Density      | $g/cm^3$               | Mass of a rock per unit volume.                                             |
+| P-wave Velocity   | m/s                    | Speed of compressional seismic waves through a material.                    |
+| S-wave Velocity   | m/s                    | Speed of shear seismic waves through a material.                            |
+| Young's Modulus   | GPa (GigaPascals)      | Ratio of stress to strain in the elastic region; measures stiffness.        |
+| Shear Modulus     | GPa (GigaPascals)      | Ratio of shear stress to shear strain; measures resistance to shear.        |
+
+
 * **Well (ID)** - is the unique well index
 * **X (m), Y (m)** - are the location coordinates over a square area of interest of 0 - 10,000m in X and Y.
 * **Porosity (%)** - is the measure of the void spaces (pores) in a material, expressed as a percentage of the total rock volume.
