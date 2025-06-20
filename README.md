@@ -59,8 +59,8 @@ You have the following data files available.
 
 These two files contain the well log data along the wellbore for all 83 wells.
 
-* **res21_2D_wells.csv** - 2D averaged well data and 3 year cumulative oil production for the previous production wells, well indices from 1 to 73
-* **res21_2D_wells_test.csv** - 2D averaged well data for the remaining, preproduction wells, well indices from 74 to 83 
+* [**res21_2D_wells.csv**](/problem/res21_2D_wells.csv) - 2D averaged well data and 3 year cumulative oil production for the previous production wells, well indices from 1 to 73
+* [**res21_2D_wells_test.csv**](/problem/res21_2D_wells_test.csv) - 2D averaged well data for the remaining, preproduction wells, well indices from 74 to 83 
 
 Comments: 
 
