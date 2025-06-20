@@ -151,11 +151,13 @@ The Workflow and Presentation submission templates are in the [resources reposit
 
 3. Do NOT repost Professors Pyrcz and Foster’s content, share the links instead!
 
-4. Use code from others, but cite all code used from other sources in your workflows and presentations, e.g. figure captions.
-Pyrcz, M.J. (2020) GeostatsPy 0.0.19 [Source code]. https://github.com/GeostatsGuy/GeostatsPy
-Foster, J.T., (2015) 1DPDpy 1.0 [source code]. http://dx.doi.org/10.5281/zenodo.15795 
+4. Use code from others, but cite all code used from other sources in your workflows and presentations, e.g.,
 
-5. The data has been sanitized. Do not attempt to hack the source!
+* Pyrcz, M.J. (2020) GeostatsPy 0.0.19 [Source code]. https://github.com/GeostatsGuy/GeostatsPy
 
-6. Work hard, learn and have fun!
+* Foster, J.T., (2015) 1DPDpy 1.0 [source code]. http://dx.doi.org/10.5281/zenodo.15795 
+
+6. The data has been sanitized. Do not attempt to hack the source!
+
+7. Work hard, learn and have fun!
 
