@@ -56,8 +56,8 @@ Comments:
 
 Predictor features:
 
-* well (ID)
-* X (m), Y (m), location coordinates over a square area of interest of 0 - 10,000m in X and Y.
+* well (ID) - is the unique well index
+* X (m), Y (m) - are the location coordinates over a square area of interest of 0 - 10,000m in X and Y.
 * Porosity (%) - is the measure of the void spaces (pores) in a material, expressed as a percentage of the total rock volume.
 * Permeability (mD) - is the ability of a material to allow fluids to pass through it, typically measured by how easily the fluid flows through its pore spaces.
 * Acoustic Impedance (kg/m2s*10^6) - is the product of a material's density and the velocity of sound through it, determining how much sound is reflected or transmitted at boundaries between different materials.
