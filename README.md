@@ -143,3 +143,19 @@ The Workflow and Presentation submission templates are in the [resources reposit
 |       | 6:30 PM - 9:30 PM     | Complete Presentations and Submission         | PowerPoint and Jupyter Notebooks  | [PowerPoint Template](/resources/Hackathon_PresentationTemplate.pptx) [Notebook Template](/resources/Hackathon_ProjectTemplate.ipynb) |  |  | |
 | Thursday Day 5  | 8:30 AM - 10:30 AM     | Final Presentations and Awards   |         |  |  |  | |
 
+#### Hackathon Rules
+
+1. Participate in the Workshops and Working Sessions
+
+2. Treat All other Hackers, Hosts, Mentors, Judges, Coordinators with the utmost respect.
+
+3. Do NOT repost Professors Pyrcz and Foster’s content, share the links instead!
+
+4. Use code from others, but cite all code used from other sources in your workflows and presentations, e.g. figure captions.
+Pyrcz, M.J. (2020) GeostatsPy 0.0.19 [Source code]. https://github.com/GeostatsGuy/GeostatsPy
+Foster, J.T., (2015) 1DPDpy 1.0 [source code]. http://dx.doi.org/10.5281/zenodo.15795 
+
+5. The data has been sanitized. Do not attempt to hack the source!
+
+6. Work hard, learn and have fun!
+
