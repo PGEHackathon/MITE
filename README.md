@@ -2,13 +2,13 @@
   <img src="https://github.com/PGEHackathon/mite/blob/main/pge_logo.png" alt="Alt text" width="400"/>
 </a>
 
-# Energy A.I. High School Hackathon 2025, First Annual Hackathon 
+# Energy A. I. High School Hackathon 2025, First Annual Hackathon 
 
 ## Hackathon Hosts: [Prof. Michael Pyrcz](https://twitter.com/GeostatsGuy) and [Prof. John Foster](https://twitter.com/johntfoster)
 
 #### Background
 
-We challenge the Energy A.I. hackathon teams, visiting The University of Texas at Austin, to build a data science model to predict oil production. This will require:
+We challenge the Energy A. I. hackathon teams, visiting The University of Texas at Austin, to build a data science model to predict oil production. This will require:
 
 * data analysis and evaluation of multiple data sources and a variety of features
 * training and tuning robust machine learning prediction models
@@ -20,7 +20,7 @@ This data-driven approach will replace the conventional engineering and geoscien
 
 #### Technology Opportunity
 
-Current engineering and geoscience numerical simulation methods to forecast oil production are extemely expensive,
+Current engineering and geoscience numerical simulation methods to forecast oil production are extremely expensive,
 
 * professional time to build and interpret the models
 
@@ -47,18 +47,18 @@ Reservoir 21 is a large, isolated reservoir unit with good porosity and permeabi
 
 Specifications of the reservoir unit of interest: 
 
-* **Depositional Setting**: clastic deepwater reservoir unit with extents 10km by 10km by 50m (thickness)
+* **Depositional Setting**: clastic deepwater turbidite reservoir unit with extents 10km by 10km by 50m (thickness)
 * **Fluids**: initial oil water contact is at the depth of 3067.4m and the average connate water saturation is about 20.3%
 * **Structure**: Anticline structure with a major vertical fault that crosses the reservoir (see location and equation on the image below). 
 * **Grids**: the 2D maps conform to the standard Python convention, origin on Top Left (see the image below).
 
 <img src="https://github.com/PGEHackathon/mite/blob/main/problem/res21_planview.png" width="600" height="400">
 
-**Figure 2:** Planview of Reservoir 21.
+**Figure 2:** Plan view of Reservoir 21.
 
-* **Wells**: 83 vertical wells were drilled across the reservoir and completed throughout the payzones. Due to the field management cosntraints, only 73 wells were open to produce oil for the first three years, while the remaining 10 wells were kept shut-in. At the end of the third year, the remaining 10 unproduced wells are planned to be openned.
+* **Wells**: 83 vertical wells were drilled across the reservoir and completed throughout the reservoir unit. Due to the field management constraints, only 73 wells were open to produce oil for the first three years, while the remaining 10 wells were kept shut-in. At the end of the third year, the remaining 10 unproduced wells are planned to be opened.
 
-* **Question**: What will be the the cumulative oil production for each of these 10 unproduced (preproduction) wells over the next 3 years?  
+* **Question**: What will be the cumulative oil production for each of these 10 unproduced (pre-production) wells over the next 3 years?  
 
 ___
 
@@ -68,7 +68,7 @@ You have the following data files available.
 
 #### Well Logs
 
-These two files contain the well log data along the wellbore for all 83 wells.
+These two files contain the well log data, averaged over the entire well bore for all 83 wells, i.e., one value per well for each feature.
 
 * [**res21_2D_wells.csv**](/problem/res21_2D_wells.csv) - 2D averaged well data and 3 year cumulative oil production for the previous production wells, well indices from 1 to 73
 * [**res21_2D_wells_test.csv**](/problem/res21_2D_wells_test.csv) - 2D averaged well data for the remaining, preproduction wells, well indices from 74 to 83 
@@ -76,23 +76,23 @@ These two files contain the well log data along the wellbore for all 83 wells.
 Comments: 
 
 * all the well names are masked (replaced with simple indices from 1 to 83) and coordinates transformed to the area of interest to conceal the actual reservoir. 
-* available petrophysical and geo-mechanical properties are listed. 
+* available petrophysical and geomechanical properties are listed. 
 * blank entries in the file indicate missing data at those locations.
 
 Predictor features:
 
 | Feature           | Units                  | Description                                                                 |
 |-------------------|------------------------|-----------------------------------------------------------------------------|
-| Well ID           | Integer                | Unique well indentifier, anonymized, random integer                         |                                     
-| X, Y              | m                      | Well location in area of interest (0 - 10,000 in X and Y)                   |
+| Well ID           | Integer                | Unique well identifier, anonymized, random integer                         |                                     
+| X, Y              | $m$                    | Well location in area of interest (0 - 10,000 in X and Y)                   |
 | Porosity          | %                      | Measure of the void spaces in a material, expressed as a percentage.        |
 | Permeability      | mDarcy                 | Ability of a material to allow fluids to pass through its pore spaces.      |
-| Acoustic Impedance| $kg/m²·s x 10^6$       | Product of a material's density and sound velocity, affecting wave behavior.|
+| Acoustic Impedance| $kg/m^2 \cdot s x 10^6$       | Product of a material's density and sound velocity, affecting wave behavior.|
 | Rock Density      | $g/cm^3$               | Mass of a rock per unit volume.                                             |
-| P-wave Velocity   | m/s                    | Speed of compressional seismic waves through a material.                    |
-| S-wave Velocity   | m/s                    | Speed of shear seismic waves through a material.                            |
-| Young's Modulus   | GPa (gigapascals)      | Ratio of stress to strain in the elastic region; measures stiffness.        |
-| Shear Modulus     | GPa (gigapascals)      | Ratio of shear stress to shear strain; measures resistance to shear.        |
+| P-wave Velocity   | $\frac{m}{s}$          | Speed of compressional seismic waves through a material.                    |
+| S-wave Velocity   | $\frac{m}{s}$          | Speed of shear seismic waves through a material.                            |
+| Young's Modulus   | $GPa$                  | Ratio of stress to strain in the elastic region; measures stiffness in gigapascals.        |
+| Shear Modulus     | $GPa$                  | Ratio of shear stress to shear strain; measures resistance to shear in gigapascals.        |
 
 Response Feature:
 
