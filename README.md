@@ -88,7 +88,7 @@ Comments:
 
 ### Required Hackathon Submissions
 
-By Wednesday June 18th at 9:30 pm each team must submit:
+By Wednesday June 25th at 9:30 pm each team must submit:
 
 * **Solution Table** - a .csv file with your predictions for the 10 preproduction wells. The submitted file should follow the format of the provided template [solution.csv](https://github.com/PGEHackathon/mite/blob/main/resources/solution.csv) for automatic scoring.
 
