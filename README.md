@@ -39,7 +39,7 @@ ___
 Reservoir 21 is a large, isolated reservoir unit with good porosity and permeability. The reservoir rock was deposited by submarine turbidity currents that transported sand, sand-shale, and shale to the deep ocean basin. Later on the pore space was filled by migrating hydrocarbons that were trapped by a thick shale above the unit. 
 
 <a href="https://en.wikipedia.org/wiki/Turbidite#/media/File:Turbidite_formation.jpg">
-  <img src="https://en.wikipedia.org/wiki/Turbidite#/media/File:Turbidite_formation.jpg" alt="Alt text" width="400"/>
+  <img src="/resources/Turbidite_formation.jpg" alt="Alt text" width="400"/>
 </a>
 
 
