@@ -18,6 +18,20 @@ This data-driven approach will replace the conventional engineering and geoscien
 * characterizing and modeling the subsurface
 * physics-based fluid flow simulations
 
+#### Technology Opportunity
+
+Current engineering and geoscience numerical simulation methods to forecast oil production are extemely expensive,
+
+* professional time to build and interpret the models
+
+* computational time to run the numerical simulations
+
+This cost limits the exploration of the subsurface. With fast data science-based machine learning prediction models we can,
+
+* improve the exploration of subsurface uncertainty and risk to reduce environmental impacts
+
+* improve optimization of development decision making to maximize profit while reducing environmental impacts
+
 ___
  
 #### The Reservoir Unit
