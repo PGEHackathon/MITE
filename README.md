@@ -34,7 +34,15 @@ This cost limits the exploration of the subsurface. With fast data science-based
 
 ___
  
-#### The Reservoir Unit
+#### The Reservoir Unit, Known as 'Reservoir 21'
+
+Reservoir 21 is a large, isolated reservoir unit with good porosity and permeability. The reservoir rock was deposited by submarine turbidity currents that transported sand, sand-shale, and shale to the deep ocean basin. Later on the pore space was filled by migrating hydrocarbons that were trapped by a thick shale above the unit. 
+
+<a href="https://www.pge.utexas.edu">
+  <img src="https://en.wikipedia.org/wiki/Turbidite#/media/File:Turbidite_formation.jpg" alt="Alt text" width="400"/>
+</a>
+
+
 
 Specifications of the reservoir unit of interest: 
 
@@ -89,8 +97,8 @@ Response Feature:
 
 The following map data are available:
 
-* **2d_ai.npy** - acoustic impedance (AI) inverted from geophysical amplitudes and interpretations. Hint: high AI indicates less oil
-* **2d_sand_proportion.npy** - proportion of sand facies over the vertical column, 2D sand proportion map. Hint: high proportion of sand generally results in more production.
+* [**res21_ai_map.npy**](/problem/res21_ai_map.npy) - acoustic impedance (AI) inverted from geophysical amplitudes and interpretations. Hint: high AI indicates less oil
+* [**res21_2d_sand_prop_map.npy**](/problem/res21_2d_sand_prop_map.npy) - proportion of sand facies over the vertical column, 2D sand proportion map. Hint: high proportion of sand generally results in more production.
 
 Comments:
 
