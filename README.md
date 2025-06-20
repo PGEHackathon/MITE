@@ -54,6 +54,23 @@ Comments:
 * available petrophysical and geo-mechanical properties are listed. 
 * blank entries in the file indicate missing data at those locations.
 
+Predictor features:
+
+* well (ID)
+* X (m), Y (m), location coordinates over a square area of interest of 0 - 10,000m in X and Y.
+* Porosity (%) - is the measure of the void spaces (pores) in a material, expressed as a percentage of the total rock volume.
+* Permeability (mD) - is the ability of a material to allow fluids to pass through it, typically measured by how easily the fluid flows through its pore spaces.
+* Acoustic Impedance (kg/m2s*10^6) - is the product of a material's density and the velocity of sound through it, determining how much sound is reflected or transmitted at boundaries between different materials.
+* Density (g/cm^3) - is the mass of a rock per unit volume
+* P-wave / compressible velocity (m/s) - is the speed at which primary (compressional) seismic waves travel through a material, influenced by the material's density and elastic properties.
+* Youngs modulus (GPa) - is a measure of a material's stiffness, defined as the ratio of stress to strain in the linear elastic region of deformation.
+* S-wave /shear velocity (m/s) - is the speed at which secondary (shear) seismic waves travel through a material, depending on the material's shear modulus and density.
+* Shear modulus / modulus of rigidity (GPa) - is a measure of a material's resistance to shear deformation, defined as the ratio of shear stress to shear strain.
+
+Response Feature:
+
+* cumulative oil production 3 years - the total oil produced by the well over three years of production 
+
 #### Map Data
 
 The following map data are available:
