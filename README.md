@@ -42,7 +42,7 @@ Reservoir 21 is a large, isolated reservoir unit with good porosity and permeabi
   <img src="/resources/Turbidite_formation.jpg" alt="Alt text" width="400"/>
 </a>
 
-**Figure 1:** Turbidite formation showing sediment deposition patterns in underwater environments.
+**Figure 1:** Turbidite formation showing sediment deposition patterns in underwater environments (image from Wikipedia Article, Turbidite).
 
 
 Specifications of the reservoir unit of interest: 
