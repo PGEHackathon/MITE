@@ -157,7 +157,7 @@ The Workflow and Presentation submission templates are in the [resources reposit
 
 * Foster, J.T., (2015) 1DPDpy 1.0 [source code]. http://dx.doi.org/10.5281/zenodo.15795 
 
-6. The data has been sanitized. Do not attempt to hack the source!
+5. The data has been sanitized. Do not attempt to hack the source!
 
-7. Work hard, learn and have fun!
+6. Work hard, learn and have fun!
 
