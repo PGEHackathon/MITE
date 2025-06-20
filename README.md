@@ -86,7 +86,7 @@ Predictor features:
 | Well ID           | Integer                | Unique well identifier, anonymized, random integer                         |                                     
 | X, Y              | $m$                    | Well location in area of interest (0 - 10,000 in X and Y)                   |
 | Porosity          | %                      | Measure of the void spaces in a material, expressed as a percentage.        |
-| Permeability      | mDarcy                 | Ability of a material to allow fluids to pass through its pore spaces.      |
+| Permeability      | $mD$                 | Ability of a material to allow fluids to pass through its pore spaces im milliDarcies.      |
 | Acoustic Impedance| $kg/m^2 \cdot s x 10^6$       | Product of a material's density and sound velocity, affecting wave behavior.|
 | Rock Density      | $g/cm^3$               | Mass of a rock per unit volume.                                             |
 | P-wave Velocity   | $\frac{m}{s}$          | Speed of compressional seismic waves through a material.                    |
@@ -119,15 +119,15 @@ Comments:
 
 By Wednesday June 25th at 9:30 pm each team must submit:
 
-* **Solution Table** - a .csv file with your predictions for the 10 preproduction wells. The submitted file should follow the format of the provided template [solution.csv](https://github.com/PGEHackathon/mite/blob/main/resources/solution.csv) for automatic scoring.
+* **Solution Table** - a .csv file with your predictions for the 10 pre-production wells. The submitted file should follow the format of the provided template [solution.csv](https://github.com/PGEHackathon/mite/blob/main/resources/solution.csv) for automatic scoring.
 
     * the file must be named 'solution.csv' with final values in a commit and then pushed to Github for the automated scoring.
 
-* **Python Workflow and Associated Files** - commited to this repository with the workflow as a Jupyter Notebook .ipynb file along with all data files required to reproduce your team's solutions. The submitted workflow Jupyter Notebook should follow the format of the provided template [Hackathon_ProjectTemplate](https://github.com/PGEHackathon/mite/blob/main/resources/Hackathon_ProjectTemplate.ipynb) for enhanced workflow communication and code readibility.
+* **Python Workflow and Associated Files** - committed to this repository with the workflow as a Jupyter Notebook .ipynb file along with all data files required to reproduce your team's solutions. The submitted workflow Jupyter Notebook should follow the format of the provided template [Hackathon_ProjectTemplate](https://github.com/PGEHackathon/mite/blob/main/resources/Hackathon_ProjectTemplate.ipynb) for enhanced workflow communication and code 'read-ability'.
 
 * **Presentation** - a PowerPoint slide deck .PPTX file for your team's final presentation to our judges. The submitted presentation should follow the format of the provided example presentation [Hackathon_PresentationTemplate](https://github.com/PGEHackathon/mite/blob/main/resources/Hackathon_PresentationTemplate.pptx).
 
-The Workflow and Presentation submission templates are in the [resources respository](https://github.com/PGEHackathon/resources) and the results submission template is in this repository.
+The Workflow and Presentation submission templates are in the [resources repository](https://github.com/PGEHackathon/resources) and the results submission template is in this repository.
 
 #### Hackathon Schedule
 
