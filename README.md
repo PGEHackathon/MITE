@@ -1,5 +1,5 @@
 <a href="https://www.pge.utexas.edu">
-  <img src="https://github.com/PGEHackathon/mite/blob/main/pge_logo.png" alt="Alt text" width="400"/>
+  <img src="pge_logo.png" alt="Alt text" width="400"/>
 </a>
 
 # Energy A. I. High School Hackathon 2025, First Annual Hackathon 
@@ -39,7 +39,7 @@ ___
 Reservoir 21 is a large, isolated reservoir unit with good porosity and permeability. The reservoir rock was deposited by submarine turbidity currents that transported sand, sand-shale, and shale to the deep ocean basin. Later on the pore space was filled by migrating hydrocarbons that were trapped by a thick shale above the unit. 
 
 <a href="https://en.wikipedia.org/wiki/Turbidite#/media/File:Turbidite_formation.jpg">
-  <img src="/resources/Turbidite_formation.jpg" alt="Alt text" width="400"/>
+  <img src="resources/Turbidite_formation.jpg" alt="Alt text" width="400"/>
 </a>
 
 **Figure 1:** Turbidite formation showing sediment deposition patterns in underwater environments (image from Wikipedia Article, Turbidite).
@@ -52,7 +52,7 @@ Specifications of the reservoir unit of interest:
 * **Structure**: Anticline structure with a major vertical fault that crosses the reservoir (see location and equation on the image below). 
 * **Grids**: the 2D maps conform to the standard Python convention, origin on Top Left (see the image below).
 
-<img src="https://github.com/PGEHackathon/mite/blob/main/problem/res21_planview.png" width="600" height="400">
+<img src="problem/res21_planview.png" width="600" height="400">
 
 **Figure 2:** Plan view of Reservoir 21.
 
@@ -160,4 +160,3 @@ The Workflow and Presentation submission templates are in the [resources reposit
 5. The data has been sanitized. Do not attempt to hack the source!
 
 6. Work hard, learn and have fun!
-
