@@ -13,6 +13,7 @@ We challenge the Energy A. I. hackathon teams, visiting The University of Texas 
 * data analysis and evaluation of multiple data sources and a variety of features
 * training and tuning robust machine learning prediction models
 
+
 This data-driven approach will replace the conventional engineering and geoscience approach:
 
 * characterizing and modeling the subsurface
